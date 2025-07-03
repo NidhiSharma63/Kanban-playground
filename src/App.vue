@@ -19,7 +19,7 @@
 <script setup>
 import Kanban from "kanvue";
 import initialData from "./data";
-console.log(initialData);
+
 function handleDrop(payload) {
   console.log("Dropped:", payload);
 }
