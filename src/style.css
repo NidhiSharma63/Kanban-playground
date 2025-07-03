@@ -17,7 +17,7 @@
   gap: 1rem;
 }
 .column {
-  width: 400px;
+  width: 350px;
   color: white;
   padding-top: 0;
   border: 2px black dashed;
@@ -75,7 +75,19 @@
   text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.3);
   margin: 0 1rem;
 }
+.card .title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(17, 16, 16);
+  margin-bottom: .7rem;
+}
 
+.card .description {
+  font-size: 0.9rem;
+  color: rgb(17, 16, 16);
+  margin-bottom: .7rem;
+
+}
 .card:active {
   opacity: 0.5;
 }

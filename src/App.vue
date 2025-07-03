@@ -6,7 +6,7 @@
       @drag-start="handleDragStart"
     >
       <template #card="{ task }">
-        <div>
+        <div >
           <h6 class="title">{{ task.title }}</h6>
           <p class="description">Status: {{ task.status }}</p>
           <p class="description">Priority: {{ task.priority }}</p>
